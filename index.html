@@ -11,6 +11,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -22,7 +23,7 @@
 							<img src="assets/img/logo.png" class="logo" width="100px" height="100px">
 					</nav>
 
-					<nav class="menu-principal">
+					<nav data-aos-duration="1000" data-aos="fade-down" class="menu-principal">
 						<ul>
 							<li> <a class="enlace" href="#" >INICIO</a></li>
 							<li> <a class="enlace" href="cctv.html" target="_blank" title="CCTV">CCTV</a></li>
@@ -48,7 +49,7 @@
 				<h2 class="titulo-marcas">Marcas que distribuimos</h2>
 
 
-				<article class="contenedor-marcas">
+				<article data-aos="fade-right" data-aos-duration="1000" class="contenedor-marcas">
 					<div class="marcas">
 						<img class="img-marca"src="assets/img/marcas/dell.png" width="250px">
 					</div>
@@ -75,7 +76,7 @@
 
 				<h2 class="titulo-populares">Productos mas populares</h2>
 
-				<article class="contenedor-populares">
+				<article data-aos="fade-left" data-aos-duration="1000" class="contenedor-populares">
 					<div class="producto-popular">
 						<img class="img-producto" src="assets/img/productos/cam.jpg">
 						<p>Kit de camaras HD</p>
@@ -103,6 +104,15 @@
 		</footer>
 
 	</div>
+
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script>
+  		AOS.init();
+	</script>
+
 
 </body>
 </html>
