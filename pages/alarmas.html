@@ -2,23 +2,24 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Puntos de venta</title>
+	<title>Alarmas</title>
 	<meta name="author" content="Abraham Romero">
-	<meta name="Descripcion" content="Puntos de venta, sistemad">
+	<meta name="Descripcion" content="Alarmas, sistemad">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 	<link rel="stylesheet" href="assets/estilos/estilos.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
 <body>
 
-<div class="contenedor-paginas">
+	<div class="contenedor-paginas">
 
 			<header>
 					<div class="contenedor-menu">
 						<nav class="logo-header">
-							<img src="assets/img/logo.png" class="logo" width="80px" height="80px">
+							<a href="index.html"><img src="assets/img/logo.png" class="logo" width="80px" height="80px"></a>
 						</nav>
 
 
@@ -38,11 +39,11 @@
 			<main class="contenido-principal">
 				<section class="seccion-principal">
 
-					<h1 class="titulo-seccion">Puntos de venta</h1>
+					<h1 class="titulo-seccion">Alarmas</h1>
 
-					<article class="contenedor-producto-right">
+					<article data-aos="fade-right" data-aos-duration="1000" class="contenedor-producto-right">
 						<div class="contenedor-img">
-							<img class="imagen-producto" src="assets/img/pos1.jpg"  title="POS 1">
+							<img class="imagen-producto" src="assets/img/alarm1.jpg"  title="alarma 1">
 						</div>
 
 						<div class="contenedor-texto">
@@ -62,9 +63,9 @@
 							</div>
 
 
-					<article class="contenedor-producto-left">
+					<article data-aos="fade-left" data-aos-duration="1000" class="contenedor-producto-left">
 						<div class="contenedor-img">
-							<img class="imagen-producto" src="assets/img/pos2.jpg"  title="POS 2">
+							<img class="imagen-producto" src="assets/img/alarm4.jpg"  title="Alarma 2">
 						</div>
 
 						<div class="contenedor-texto">
@@ -92,15 +93,19 @@
 
 
 
-
-	</body>
-
-
-
-
-
-
-
+	<!-- SCRIPTS ANIMACIONES-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<script>
+  		AOS.init();
+	</script>
+</body>
 
 
-	</html>
+
+
+
+
+
+
+</html>

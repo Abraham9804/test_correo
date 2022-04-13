@@ -23,15 +23,15 @@ body{
 	}
 
 
-	.contenedor-paginas{
-		display: grid;
-		grid-template-areas: 
-		"header header header header"
-		"main main main main"
-		"footer footer footer footer";
-		grid-template-columns: repeat(4,25%);
-		grid-template-rows: auto auto 120px;
-		}
+.contenedor-paginas{
+	display: grid;
+	grid-template-areas: 
+	"header header header header"
+	"main main main main"
+	"footer footer footer footer";
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: auto auto 120px;
+	}
 
 
 /* ------- HEADER ------- */
@@ -45,7 +45,6 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 }
-
 
 .header{
 	grid-area: header;
@@ -66,12 +65,10 @@ header {
 	padding: 15px;
 	text-decoration: none;
 	color:white;
-	/*color: #036CA2;*/
 	font-weight: bold;
 	position: relative;
 	margin-right: 20px;
 }
-
 
 /*-- animacion de enlaces --*/
  .enlace:after{
@@ -90,7 +87,7 @@ header {
 .enlace:hover:after{
 	transform: scaleX(1);
   	transform-origin: bottom left;
-  }
+ }
 
 
 
@@ -503,10 +500,10 @@ footer{
 	}
 
 	.producto-popular{
-	width:300px;
-	height:400px;
-	display: flex;
-	flex-direction: column;
+		width:300px;
+		height:400px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.enlace{
@@ -564,9 +561,6 @@ footer{
 		flex-wrap: wrap;
 	}
 
-	
-
-	
 	.titulo-formulario{
 		text-align: left;
 	}
@@ -618,12 +612,6 @@ footer{
 		width: 100%;
 	}
 
-	
-	
 }
 
 
-@media screen and (max-width: 405px){
-	
-
-}
