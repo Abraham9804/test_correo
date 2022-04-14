@@ -129,6 +129,7 @@ header {
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	margin-bottom: 200px;
 }
 
 
@@ -150,10 +151,13 @@ header {
 
 .marcas{
 	width:225px;
+
 }
 
 .img-marca{
 	width:100%;
+	border-radius: 10%;
+	filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
 	transition: ease all 1s;
 }
 
@@ -187,10 +191,11 @@ header {
 	flex-direction: column;
 }
 
+/*
 .producto-popular >p{
 	margin: 20px auto;
 }
-
+*/
 .img-producto{
 	width: 95%;
 	height: 200px;
@@ -426,7 +431,7 @@ footer{
 
 
 /* ------ MEDIA QUERIES --------*/
-/*@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
 	.seccion-principal{
 		width:90%;
 	}
