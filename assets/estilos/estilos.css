@@ -147,7 +147,13 @@ header {
 
 .card{
 	margin-bottom: 80px;
+	min-height: 418px;
+	max-height: 430px;
 }
+
+.card-body{
+	display: inline-block;
+	vertical-align: top;}
 
 .img-producto{
 	width: 95%;
@@ -265,11 +271,18 @@ header {
 }
 	
 
+
 .btn{
 	padding: 8px 40px;
 	margin:auto;
+	background: #57BEE8;
+	border:none;
+	
 }
 
+.btn:hover{
+	background: #036CA2;
+}
 /*-------- FORMULARIO ----------*/
 .article-formulario{
 	width:80%;
@@ -571,6 +584,10 @@ footer{
 
 	.descripcion-producto{
 		width: 100%;
+	}
+
+	.titulo-marcas{
+		padding: 10px 20px;
 	}
 
 }
