@@ -146,7 +146,7 @@ header {
 }
 
 .card{
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 .img-producto{
@@ -429,7 +429,7 @@ footer{
 
 @media screen and (max-width: 1024px){
 	.card{
-		margin:20px 30px;
+		margin:50px 30px;
 	}
 
 	.logo-header{
