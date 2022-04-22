@@ -1,0 +1,171 @@
+/* ------ MEDIA QUERIES --------*/
+@media screen and (max-width: 1200px){
+	.seccion-principal{
+		width:90%;
+	}
+
+	.contenedor-producto-right, .contenedor-producto-left{
+		width: 100%;
+	}
+
+	.contenedor-populares{
+		width: 90%;
+		justify-content: space-between;
+	}
+
+	.article-formulario{
+		margin:auto;
+	}
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+	.card{
+		margin:50px 30px;
+	}
+
+	.logo-header{
+		margin:15px;
+	}
+
+	.menu-principal{
+		margin-bottom: 20px;
+	}
+
+	.enlace{
+		margin-right: 25px;
+	}
+
+	.contenedor-populares{
+		width:90%;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.producto-popular{
+		margin:20px;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 768px){
+	.logo{
+		margin-top:20px;
+	}
+
+	.contenedor-populares{
+		width:80%;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: space-between;
+	}
+
+	.producto-popular{
+		width:300px;
+		height:400px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.enlace{
+		margin-right: 8px;
+	}
+
+	.contenedor-producto-right{
+		flex-direction: column;
+		width:100%;
+		height:auto;
+		align-items: center;
+	}
+
+	.contenedor-img{
+		width:65%;
+	}
+
+	.contenedor-texto{
+		width: 80%;
+	}
+
+	.contenedor-producto-left{
+		flex-direction: column;
+		width:100%;
+		height:auto;
+		align-items: center;
+	}
+
+	.descripcion-producto-left{
+		text-align: justify;
+	}
+
+	.seccion-principal{
+		width: 90%;
+		align-content: center;
+	}
+
+	.titulo-producto-left{
+		text-align: left;
+	}
+
+	
+}
+
+
+
+
+@media screen and (max-width: 600px){
+	.enlace{
+		margin-right: 5px;
+	}
+
+	.contenedor-populares{
+		width:100%;
+		flex-wrap: wrap;
+	}
+
+	.titulo-formulario{
+		text-align: left;
+	}
+	
+	.article-formulario p {
+		width: 100%;
+		text-align: left;
+	}
+
+	.formulario input[type="text"], 
+	.formulario input[type="tel"]{
+		width: 100%;
+		margin-bottom: 20px;
+		padding:12px;
+	}
+
+	.formulario textarea{
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+@media screen and (max-width: 480px){
+	.contenedor-producto-right{
+		width: 100%;
+	}
+
+	.contenedor-texto{
+		width: 100%;
+	}
+
+	.descripcion-producto{
+		width: 100%;
+	}
+
+	.titulo-marcas{
+		padding: 10px 20px;
+	}
+
+}

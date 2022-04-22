@@ -1,0 +1,43 @@
+/*ESTILOS DEL HEADER*/
+header {
+	grid-area: header;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+
+.nav-link{
+	display: inline-block;
+	padding: 15px;
+	position: relative;
+	margin-right: 20px;
+
+	/*-- animacion de enlaces --*/
+	&:after{
+	content: '';
+ 	position: absolute;
+ 	width: 100%;
+ 	transform: scaleX(0);
+ 	height: 1px;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: white;
+ 	transform-origin: bottom right;
+ 	transition: transform 0.6s ease-out;
+	}
+	
+	&:hover:after{
+	transform: scaleX(1);
+  	transform-origin: bottom left;
+ 	}
+}
+
+.logo{
+	transition: 1s ease  all;
+
+	&:hover{
+	transform: scale(1.05,1.05);
+	}
+}
+

@@ -1,0 +1,10 @@
+/*ESTRUCTURA DE GRID*/
+.contenedor-grid{
+	display: grid;
+	grid-template-areas: 
+	"header header header header"
+	"main main main main"
+	"footer footer footer footer";
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: auto auto auto;
+	}

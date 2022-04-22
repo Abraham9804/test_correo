@@ -1,0 +1,20 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+$color_titulos: #036CA2;
+$color_btn: #57BEE8;
+$hover_btn: #036CA2;
+
+
+@import "estructura_grid.scss";
+@import "header.scss";
+@import "portada.scss";
+@import "main.scss";
+@import "productos.scss";
+@import "formulario.scss";
+@import "footer.scss";
+@import "mediaqueryes.scss";
+
